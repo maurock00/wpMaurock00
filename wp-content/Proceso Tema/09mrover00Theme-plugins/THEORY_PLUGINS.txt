@@ -1,0 +1,8 @@
+Plugin para quitar category-tag,etc de las URLS
+
+WP-No-Category-Base
+WP-No-Tag-Base
+
+
+
+WP-PageNavi

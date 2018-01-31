@@ -1,0 +1,444 @@
+/*
+Theme Name: mrover00
+Theme URI: http://bextlan.com
+Author: mrover00
+Description: Este es el tema diseñado para mi sitio personal
+Version: 0.0.1
+Tags: mrover00
+*/
+html, body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;    
+    font-size: 16px;
+    color: #EEE;
+    background-color: #444;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+    font-size: 0;
+    /*background-color: #EEE;*/
+}
+
+.item {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    /*background-color: #999;*/
+    /*border: medium solid #444;*/
+}
+
+.i-b {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ph10 { width: 10%; }
+
+.ph20 { width: 20%; }
+
+.ph30 { width: 30%; }
+
+.ph40 { width: 40%; }
+
+.ph50 { width: 50%; }
+
+.ph60 { width: 60%; }
+
+.ph70 { width: 70%; }
+
+.ph80 { width: 80%; }
+
+.ph90 { width: 90%; }
+
+.w-100, .ph100 { width: 100%; }
+
+.error {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    background-color: greenyellow;
+}
+
+hr { 
+    width: 20%;
+    margin: 2rem auto;
+    border: medium dashed #222;
+}
+
+
+a[rel="tag"] {
+    padding: .25rem;
+}
+
+.post-categories {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a {
+    color: greenyellow;
+}
+
+a:hover {
+    opacity: .75;
+}
+
+hr:last-child { display: none; }
+
+img {
+    max-width: auto;
+    height: 100%;
+}
+
+.main, .post, .footer, .paged{ 
+    background-color: #111;
+    text-align: center;
+}
+
+.post-item:hover {
+    background-color: #444;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.the-content  p{
+    text-align: justify;
+    margin: 1rem auto;
+}
+
+.title-template{
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.avatar {
+    border-radius: 100%;
+    border: thin solid #222;
+}
+
+.comments-form o, .author-info{
+    background-color: #666;
+    list-style-position: inside;
+}
+
+.comments-form li {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #999;
+}
+
+.wp-post-image {
+    border-radius: .5rem;
+    box-shadow: .1rem .1rem .5rem greenyellow;
+}
+
+.widgets {
+    background-color: #333;
+}
+
+.widgets h3 {
+    font-size: 1.5rem;
+}
+
+.wp-pagenavi {
+    text-align: center;
+}
+
+.wp-pagenavi .current {
+    font-size: 1.5rem;
+}
+
+
+.wp-pagenavi .pages { 
+    display: block;
+}
+
+.main-nav, .search{
+    display: none;
+}
+
+.logo {
+    height: 10rem;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
+    background-size: contain;
+}
+
+.mobile-nav {
+    position: fixed;
+    font-size: 2rem;
+    color: greenyellow;
+    top: .25rem;
+    right: .25rem;
+    cursor: pointer;
+}
+
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #333;
+}
+
+.fixed-top {
+    margin-top: 10rem;
+}
+
+.main-nav li {
+    list-style-type: none; 
+    padding: .5rem;
+}
+
+.main-nav a:hover{
+    list-style-type: none; 
+    background-color: #222;
+    transition: all 1s ease-out;
+}
+
+.main-nav a {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+}
+
+.sub-menu a {
+    margin-left: 1rem;
+}
+
+.search label {
+    display: none;
+}
+
+.nav {
+    text-align: center;
+}
+
+#searchsubmit {
+    display: inline;
+    padding: .25rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0;
+    border: 0;
+    background: url('img/logo-black.png') no-repeat center;
+    background-size: contain;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.search{
+    font-size: 0;
+    text-align: center;
+}
+
+#searchsubmit:hover {
+    background-color: #488;
+}
+
+#s {
+    display: inline;
+    width: 70%;
+    padding: .25rem;
+    font-size: 1rem;
+    font-family:  'Raleway', sans-serif;
+}
+
+.social-nav li{
+    display: inline;
+    padding: .5rem;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+#wpadminbar {
+    position: fixed !important;
+    box-sizing: content-box;  
+    height: 3rem !important;      
+}
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    height: inherit;
+    line-height: 400px;
+    font-size: 5rem;
+    background-color: rgba(0,0,0,.3);
+    letter-spacing: .50rem;
+}
+
+.info-post {
+    text-align: left;
+}
+
+.info-post p {
+    padding: .25em;
+}
+
+#comments-evolved-tabs, {
+    display: none !important;
+    background-color: #000 !important;
+    color: white !important;
+}
+
+.results-label {
+    height: 4rem;
+    width: 100%;
+    background-color: #111;
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 30em){
+    .sm10 { width: 10%; }
+    
+    .sm20 { width: 20%; }
+
+    .sm25 { width: 25%; }
+    
+    .sm30 { width: 30%; }
+
+    .sm33 { width: 33.3333333333333333333333% }
+    
+    .sm40 { width: 40%; }
+    
+    .sm50 { width: 50%; }
+    
+    .sm60 { width: 60%; }
+    
+    .sm70 { width: 70%; }
+    
+    .sm80 { width: 80%; }
+    
+    .sm90 { width: 90%; }
+    
+    .sm100 { width: 100%; }
+
+    .logo { background-position: center; }
+}
+
+@media screen and (min-width: 48em){
+    .md10 { width: 10%; }
+    
+    .md20 { width: 20%; }
+
+    .md25 { width: 25%; }
+    
+    .md30 { width: 30%; }
+
+    .md33 { width: 33.3333333333333333333333%; }
+    
+    .md40 { width: 40%; }
+    
+    .md50 { width: 50%; }
+    
+    .md60 { width: 60%; }
+    
+    .md70 { width: 70%; }
+    
+    .md80 { width: 80%; }
+    
+    .md90 { width: 90%; }
+    
+    .md100 { width: 100%; }
+}
+
+@media screen and (min-width: 64em){
+    .lg10 { width: 10%; }
+    
+    .lg20 { width: 20%; }
+
+    .lg25 { width: 25%; }
+    
+    .lg30 { width: 30%; }
+
+    .lg33 { width: 33.3333333333333333333333%; }
+    
+    .lg40 { width: 40%; }
+    
+    .lg50 { width: 50%; }
+    
+    .lg60 { width: 60%; }
+    
+    .lg70 { width: 70%; }
+    
+    .lg80 { width: 80%; }
+    
+    .lg90 { width: 90%; }
+    
+    .lg100 { width: 100%; }
+
+    .logo, .main-nav, .search {
+        display: inline-block !important;
+        vertical-align: middle;
+    }
+
+    .mobile-nav { display: none; }
+
+    .header {
+        
+    }
+
+    .main-nav a {
+        display: inline;
+        padding: 0;
+    }
+
+    .main-nav li { 
+        display: inline;
+        padding: .75rem;
+    }
+
+    .main-nav li:hover,  .main-nav a:hover{
+        background-color: #222;
+        transition: all .2s ease-out;
+    }
+
+    .main-nav li:last-child { position: relative; }
+
+    .main-nav li:last-child:hover > .sub-menu {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .sub-menu a { margin-left: 1rem;}
+
+    .sub-menu {
+        position: absolute;
+        top: 2.70rem;
+        left: 0;
+        background-color: #222;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .2s ease-out;
+    }
+
+    .sub-menu li { display: block; }
+
+    .sub-menu li:hover , .sub-menu a:hover { background-color: #444; }
+
+    .sub-menu a { margin-left: 0; }
+
+}
